@@ -20,7 +20,7 @@ $(document).ready(function () {
     event.preventDefault();
     var result = "";
     var movie = $("#movie").val();
-    var url = "http://www.omdbapi.com/?apikey=" + apikey;
+    var url = "https://www.omdbapi.com/?apikey=" + apikey;
 
     $.ajax({
       method: "GET",
