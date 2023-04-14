@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+   background-color: wheat;
+}
+.header_class{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.header_class:hover{
+    color: wheat;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    margin: 10px;
+ 
+}
+
+#logo h1:hover{
+    color: gold;
+}
+#logo{
+    margin-left: 10px;
+    padding: 5px;
+}
+#menue{
+    width:90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 0;
+    font-weight:bold ;
+    font-size: 20px;
+    padding: 10px;
+}
+#menue div:hover{
+    cursor: pointer;
+    color: wheat;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+#moviForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#movie{
+    width: 70vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: pink;
+}
+
+#movie:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    
+
+}
+#searchbtn{
+    margin-top: 25px;
+    width:auto;
+    margin-left: 43%;
+}
+
+
+form{
+    margin: 40px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main #result{
+width:50vw ;
+    text-align: center;
+    font-weight: bold;
+    background-color: gray;
+
+}
+
+.favourite{
+    text-align: center;
+    background-color: antiquewhite;
+   }
+
+
+main #mid_line{
+    width: 0;
+    height: 75vh;
+    border: 2px solid grey;
+    opacity: 0.5;
+    margin-right: 2px;
+    margin-left: 5px;
+
+}
